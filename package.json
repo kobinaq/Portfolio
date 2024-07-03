@@ -7,7 +7,11 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
+<<<<<<< HEAD
     "build-gh": "parcel build --public-url 'https://kobinaq.github.io/Portfolio'",
+=======
+    "build-gh": "parcel build --public-url 'https://{github-kobinaq}.github.io/{Portfolio}'",
+>>>>>>> 3fb2394c854efafff7c4373700aa3c77d2ff0641
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
