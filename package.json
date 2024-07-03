@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://kobinaq.github.com/Kobina_portfolio",
+  "homepage": "https://kobinaq.github.com/kobina_portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://kobinaq.github.io/Kobina_portfolio'",
+    "build-gh": "parcel build --public-url 'https://kobinaq.github.io/kobina_portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://kobinaq.github.io/Kobina_portfolio"
+    "url": "git+https://kobinaq.github.io/kobina_portfolio"
   },
   "author": "Microsoft",
   "license": "ISC",
